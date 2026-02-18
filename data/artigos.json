@@ -1,0 +1,18 @@
+[
+  {
+    "slug": "viagem-lisboa",
+    "titulo": "As Maravilhas de Lisboa",
+    "autor": "João Terzian",
+    "data": "18/02/2026",
+    "descricao": "Descubra os segredos da capital portuguesa.",
+    "conteudo": "Lisboa encanta a todos com suas ladeiras históricas, o som do fado ecoando pelas ruas de Alfama e o sabor inigualável do Pastel de Belém..."
+  },
+  {
+    "slug": "toquio-tecnologia",
+    "titulo": "Tóquio: Onde o Futuro Mora",
+    "autor": "Guia Tech",
+    "data": "15/02/2026",
+    "descricao": "Uma jornada pela metrópole mais tecnológica do mundo.",
+    "conteudo": "Visitar Tóquio é como entrar em um filme de ficção científica, mas com templos milenares preservados em cada esquina..."
+  }
+]
