@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ✈️ TravelGate-Blog
 
-## Getting Started
+Este é um projeto de blog de viagens desenvolvido com **Next.js 15**, com foco em rotas dinâmicas, carregamento de dados e otimização de SEO.
 
-First, run the development server:
+## 🚀 Funcionalidades
 
-```bash
+* **Página Inicial**: Listagem dinâmica de destinos de viagem.
+* **Rotas Dinâmicas**: Páginas individuais para cada artigo utilizando `[slug]`.
+* **SEO Dinâmico**: Títulos e metadados gerados dinamicamente para cada destino.
+* **Data Fetching**: Consumo de dados via JSON local com fallback para API.
+* **Interface**: Desenvolvida com Tailwind CSS para garantir responsividade.
+
+## 🛠️ Tecnologias Utilizadas
+
+* [Next.js 15](https://nextjs.org/) (App Router)
+* [TypeScript](https://www.typescriptlang.org/)
+* [Tailwind CSS](https://tailwindcss.com/)
+* [Lucide React](https://lucide.dev/) (Ícones)
+
+## 📁 Estrutura do Projeto
+
+```text
+├── data/           # Banco de dados JSON local
+├── src/
+│   ├── app/        # Rotas e layouts (App Router)
+│   │   ├── artigos/
+│   │   │   └── [slug]/ # Página dinâmica do artigo
+│   │   ├── layout.tsx  # Layout global
+│   │   └── page.tsx    # Home com listagem
+🔧 Como Rodar o Projeto
+Instale as dependências:
+
+Bash
+npm install
+Inicie o servidor de desenvolvimento:
+
+Bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Acesse no navegador:
+http://localhost:3000
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+📄 Requisitos da Atividade
+[x] Criação de Projeto Next.js com App Router.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+[x] Listagem de dados (Requisito 2).
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+[x] Página de Detalhes Dinâmica (Requisito 1).
 
-## Learn More
+[x] SEO Dinâmico (Requisito 3).
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+[x] Deploy na Vercel (Requisito 4).
